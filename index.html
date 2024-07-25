@@ -1,3 +1,71 @@
-<html>
-    <h1>Hi</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Main Page</title>
+    <!-- Link to the external CSS file for styling -->
+    <link rel="stylesheet" href="Style/index.css">
+</head>
+
+<body>
+    <!-- Navigation bar at the top of the page -->
+    <nav class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+    </nav>
+
+    <!-- Section for the 5-day weather forecast -->
+    <section class="container">
+        <div class="background">
+            <!-- Monday Forecast -->
+            <div class="col">
+                <!-- Day of the week -->
+                <h3>Mon</h3>
+                <!-- Weather icon -->
+                <img src="Images/Rainy.png" class="weather-icon" alt="Rainy">
+                <!-- Weather description -->
+                <p>Rain</p>
+                <!-- Low temperature -->
+                <span>Low: 2°</span>
+                <!-- High temperature -->
+                <span>High: 4°</span>
+            </div>
+            <!-- Repeat the structure for the remaining days -->
+            <!-- Tuesday Forecast -->
+            <div class="col">
+                <h3>Tues</h3>
+                <img src="Images/Cloudy.png" class="weather-icon" alt="Cloudy">
+                <p>Cloudy</p>
+                <span>Low: 4°</span>
+                <span>High: 6°</span>
+            </div>
+            <!-- Wednesday Forecast -->
+            <div class="col">
+                <h3>Wed</h3>
+                <img src="Images/Cloudy.png" class="weather-icon" alt="Cloudy">
+                <p>Cloudy</p>
+                <span>Low: 6°</span>
+                <span>High: 8°</span>
+            </div>
+            <!-- Thursday Forecast -->
+            <div class="col">
+                <h3>Thurs</h3>
+                <img src="Images/Sunny.png" class="weather-icon" alt="Sunny">
+                <p>Sunny</p>
+                <span>Low: 8°</span>
+                <span>High: 10°</span>
+            </div>
+            <!-- Friday Forecast -->
+            <div class="col">
+                <h3>Fri</h3>
+                <img src="Images/Snowy.png" class="weather-icon" alt="Snowy">
+                <p>Snow</p>
+                <span>Low: 5°</span>
+                <span>High: 7°</span>
+            </div>
+        </div>
+    </section>
+</body>
 </html>
