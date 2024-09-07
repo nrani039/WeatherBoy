@@ -1,0 +1,53 @@
+/* Style/index.css */
+
+/* Basic preset and font settings for the body */
+body {
+}
+
+/* Navigation bar styling */
+nav {
+}
+
+/* Navigation links styling */
+nav a {
+}
+
+/* Hover effect for navigation links */
+nav a:hover {
+}
+
+/* Active link styling */
+nav a.active {
+}
+
+/* Container for main content */
+.container {
+}
+
+/* Background styling for sections */
+.background {
+}
+
+/* Column styling for weather forecast */
+.col {
+}
+
+/* Weather icon styling */
+.weather-icon {
+}
+
+/* Large title for temperature */
+.temp-title {
+}
+
+/* Styling for today's weather info */
+.todays-info {
+}
+
+/* Styling for weather description */
+.weather {
+}
+
+/* Styling for temperature ranges */
+span {
+}
